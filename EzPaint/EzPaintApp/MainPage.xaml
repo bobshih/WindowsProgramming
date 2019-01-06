@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="EzPaintApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EzPaintApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas x:Name="_canvas" Margin="10,85,10,10" Background="#FF7462EC" PointerReleased="PressUpOnCanvas" PointerPressed="PressDownOnCanvas" PointerMoved="MoveMouseOnCanvas"/>
+        <Button x:Name="_unDoButton" Content="UnDo" HorizontalAlignment="Left" Height="40" Margin="9,4,0,0" VerticalAlignment="Top" Width="108" Click="ClickUnDoButton"/>
+        <Button x:Name="_reDoButton" Content="ReDo" HorizontalAlignment="Left" Height="40" Margin="9,43,0,0" VerticalAlignment="Top" Width="108" Click="ClickReDoButton"/>
+        <Button x:Name="_triangleButton" Content="Triangle" HorizontalAlignment="Left" Height="79" Margin="380,4,0,0" VerticalAlignment="Top" Width="150" Click="ClickTriangleButton"/>
+        <Button x:Name="_rectangleButton" Content="Rectangle" HorizontalAlignment="Left" Height="79" Margin="529,4,0,0" VerticalAlignment="Top" Width="150" Click="ClickRectangleButton"/>
+        <Button x:Name="_ellipseButton" Content="Ellipse" HorizontalAlignment="Left" Height="79" Margin="678,4,0,0" VerticalAlignment="Top" Width="150" Click="ClickEllipseButton"/>
+        <Button x:Name="_lineButton" Content="Line" HorizontalAlignment="Left" Height="79" Margin="827,4,0,0" VerticalAlignment="Top" Width="150" Click="ClickLineButton"/>
+        <Button x:Name="_stateDescription" Content="Button" HorizontalAlignment="Left" Height="73" Margin="1125,7,0,0" VerticalAlignment="Top" Width="234" IsEnabled="False"/>
+        <Button x:Name="_pointerButton" Content="Pointer" HorizontalAlignment="Left" Height="79" Margin="976,4,0,0" VerticalAlignment="Top" Width="150" Click="ClickPointerButton"/>
+        <Button x:Name="_deleteButton" Content="Delete" HorizontalAlignment="Left" Height="79" Margin="116,4,0,0" VerticalAlignment="Top" Width="89" Click="ClickDeleteButton"/>
+        <Button x:Name="_clearButton" Content="Clear" HorizontalAlignment="Left" Height="79" Margin="204,4,0,0" VerticalAlignment="Top" Width="89" Click="ClickClearButton"/>
+        <Button x:Name="_uploadButton" Content="UpLoad" HorizontalAlignment="Left" Height="79" Margin="292,4,0,0" VerticalAlignment="Top" Width="89" Click="ClickUploadButton"/>
+
+    </Grid>
+</Page>

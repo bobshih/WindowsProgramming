@@ -6,4 +6,6 @@
 該專案一樣有應用 MVC 和 Factory Pattern 作為練習，也有單元測試與圖形化測試。
 
 ## ezPaint
-ezPaint 是一個類似小畫家的應用程式，有兩種介面，分別是 Windows 下的視窗程式和 Windows Phone 模式，由於採用 MVC 的設計樣式，不論是哪種執行程式，都用相同的 Model。
+ezPaint 是一個類似小畫家的應用程式，在一個畫板上畫三角形、長方形和橢圓形等圖案，並且可以上傳圖片至助教的伺服器上。
+
+該專案有兩種介面，分別是 Windows 下的視窗程式和 Windows Phone 模式，由於採用 MVC 的設計樣式，不論是哪種執行程式，都用相同的 Model。
